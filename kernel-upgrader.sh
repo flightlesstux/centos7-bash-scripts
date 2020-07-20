@@ -86,6 +86,6 @@ esac
 elif echo $OSCHECK | grep -q "CentOS Linux 8" ; then
         echo -e "You are using CentOS8 and CentOS8 is not supported."
 else
-                echo -e "\nUnable to detect your OS...\n"
+                echo -e "Unable to detect your OS...\n"
                 exit 1
 fi
